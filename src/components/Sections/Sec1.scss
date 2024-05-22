@@ -1,0 +1,114 @@
+.sec1{
+    background-image: url(https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+.sec01{
+    margin-left: 150px;
+    padding-left: 150px;
+}
+
+    justify-content: center;
+    position: relative;
+    gap: 50px;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        background-color: rgba(0, 0, 0, 0.197);
+    }
+    h2{
+        font-size: 85px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 24px;
+        color: white;
+        margin-bottom: 20px;
+        width: 45%;
+    }
+    .clubs{
+        display: flex;
+        align-items: center;
+        button{
+            padding: 20px 30px;
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-right: 10px;
+        }
+        span{
+            padding: 20px 30px;
+            background-color: white;
+            border: 1px solid white;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .sec1{
+        background-image: url(https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    
+        gap: 50px;
+        h2{
+            margin-left: -150px;
+            font-size: 55px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 14px;
+            margin-left: -100px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .clubs{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -150px;
+            button{
+               
+                padding: 20px 20px;
+                background: transparent;
+                border: 2px solid white;
+                color: white;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                width: 100%;
+                margin-right: 20px;
+            }
+            span{
+                
+                padding: 20px 20px;
+                margin-right: 20px;
+                width: 100%;
+                background-color: white;
+                border: 1px solid white;
+                color: black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                
+                
+            }
+        }
+    }
+    
+}
